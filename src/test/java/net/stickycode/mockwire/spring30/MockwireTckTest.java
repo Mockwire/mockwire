@@ -12,13 +12,16 @@
  */
 package net.stickycode.mockwire.spring30;
 
-import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+import org.junit.runners.Suite.SuiteClasses;
 
+import net.stickycode.mockwire.MockwireTestKit;
 
-public class ConfiguredTest {
+@RunWith(Suite.class)
+@SuiteClasses({
+    MockwireTestKit.class
+})
+public class MockwireTckTest {
 
-  @Test
-  public void check() {
-//    Mockwire.isolate(MockConfiguredProperties.class);
-  }
 }
