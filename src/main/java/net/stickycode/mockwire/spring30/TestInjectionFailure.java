@@ -9,8 +9,8 @@ import net.stickycode.exception.PermanentException;
 public class TestInjectionFailure
     extends PermanentException {
 
-  public TestInjectionFailure(Throwable t, Object testInstance) {
-    super(t, "Failed to inject test {}", testInstance.getClass().getSimpleName());
+  public TestInjectionFailure(Throwable t, Class<?> testInstance) {
+    super(t, "Failed to inject test {}", testInstance.getSimpleName());
   }
 
 }
