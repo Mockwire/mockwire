@@ -4,13 +4,13 @@
 	<parent>
 		<groupId>net.stickycode.parent</groupId>
 		<artifactId>sticky-jar</artifactId>
-		<version>1.16</version>
+		<version>1.18</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>net.stickycode.mockwire</groupId>
 	<artifactId>sticky-mockwire-tck</artifactId>
-	<version>6.1-SNAPSHOT</version>
+	<version>6.2-SNAPSHOT</version>
 
 	<name>sticky-mockwire-tck</name>
 	<description>The test kit to verify mockwire implementors.</description>
